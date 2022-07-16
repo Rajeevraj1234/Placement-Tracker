@@ -1,0 +1,157 @@
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 120px;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: black;
+    font-weight: bolder;
+}
+
+#nav-log-btn{
+    border-radius: 30px;
+    font-size: 1.1em;
+    background-color: var(--basicColor);
+    padding: 1% 5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --basicColor: #212181;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* <!------------------------------- HEADER-START ------------------------------------> */
+#header-banner{
+    background-color: rgb(68, 67, 67);
+    background-image: url("images/banner1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-blend-mode: multiply;
+    padding: 12%;
+    margin-bottom: 3%;
+}
+
+#header-banner h1{
+    font-size: 5em;
+    font-weight: bolder;
+}
+#header-banner p{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:970px) {
+    #header-banner h1{
+        font-size: 4.6em;
+    }
+    #header-banner p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #header-banner h1{
+        font-size: 3em;
+    }
+    #header-banner p{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #header-banner h1{
+        font-size: 2em;
+    }
+    #header-banner p{
+        font-size: 0.6rem;
+    }
+}
+
+/* <!------------------------------- HEADER-END ------------------------------------> */
+
+/* <!------------------------------- Section-2-START ------------------------------------> */
+
+#s2-main-div {
+    margin-bottom: 5%;
+}
+
+#s2-heading h1{
+    font-size: 5em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+/* -----------------------------------------cards---------------------------------------- */
+
+#s2-card-div{
+    background-color: white;
+    padding: .5% 1.4%;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 20px grey;
+    transition: 1s ease;
+    margin-bottom: 5%;
+}
+
+#s2-card-div:hover{
+    box-shadow: 0 0 40px var(--basicColor);
+}
+
+#s2-card-1-img{
+    background-image: url("images/amazon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 20%;
+    /* border-radius: 10px; */
+}
+
+#s2-card-div h1{
+    margin-top: 14%;
+    font-size: 3em;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+
+#s2-button{
+    display: inline-block;
+    padding: 3% 5%;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--basicColor) ;
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#s2-card-2-img{
+    background-image: url("images/google.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 20%;
+    /* border-radius: 10px; */
+}
+
+#s2-card-3-img{
+    background-image: url("images/microsoft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 20%;
+    /* border-radius: 10px; */
+}
