@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --basicColor: #fa4753;
+    --hoverColor: #5bccf6;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--basicColor);
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 4em;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact-info .box {
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+
+.container .contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contact-info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contact-info .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+/* ...................form start.............................. */
+.contact-form {
+    margin-top: 4%;
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.contact-form .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .inputbox input,
+.contact-form .inputbox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contact-form .inputbox input:focus~span,
+.contact-form .inputbox input:valid~span,
+.contact-form .inputbox textarea:focus~span,
+.contact-form .inputbox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .inputbox input[type="submit"] {
+    width: 100px;
+    background: var(--basicColor);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#btn:hover {
+    background-color: var(--hoverColor);
+    color: black;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contact-info {
+        margin-bottom: 40px;
+    }
+
+    .container .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+}
