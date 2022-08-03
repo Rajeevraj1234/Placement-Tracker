@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --basicColor: #f45c43;
+    --hoverColor: #5baef6;
+}
+
+#logo{
+    height: 60px;
+    width: 250px;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 120px;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+    font-weight: bolder;
+}
+
+#nav-log-btn{
+    border-radius: 30px;
+    font-size: 1.1em;
+    background-color: var(--basicColor);
+    padding: 1% 5%;
+}
+
+/* #sticky{
+    border-bottom: 2px solid #000;
+} */
+
+.h-primary{
+    margin-top: 8%;
+    font-size: 3.8rem;
+    padding: 12px;
+    color: black;
+}
+#companies .box button {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: var(--basicColor);
+    color: white;
+    margin: 23px auto;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 1s ease;
+}
+#companies .box button:hover {
+    background-color: var(--hoverColor);
+}
+#companies .box a{
+    text-decoration: none;
+}
+
+#companies .box{
+    border: 2px solid lightcoral;
+    padding: 34px;
+    margin: 20px 0px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#companies .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+#companies .box p{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+    padding: 12px;
+    text-align: center;
+    color: lightcoral;
+}
+

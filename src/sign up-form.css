@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+:root{
+    --basicColor: #fa4753;
+    --hoverColor: #5bccf6;
+}
+
+#logo{
+    height: 60px;
+    width: 250px;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 120px;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+    font-weight: bolder;
+}
+
+#nav-log-btn{
+    border-radius: 30px;
+    font-size: 1.1em;
+    background-color: var(--basicColor);
+    padding: 1% 5%;
+}
+  
+
+/* #sticky{
+    border-bottom: 2px solid #000;
+} */
+
+.background {
+    height: 100vh;
+}
+
+#ui {
+    background-color: #d4efdf;
+    padding: 30px;
+    margin-top: 130px;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.icon {
+    padding: 8px 2px;
+}
+
+
+#ui label {
+    font-size: 18px;
+}
+
+.state {
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid;
+    color: #7b7b7b;
+    border-radius: 0;
+    background: white;
+}
+
+
+.btn {
+    background-color: #212f3d;
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px 0 10px;
+}
+
+.btn:hover {
+    background: #d4efdf;
+    color: black;
+    border: 1px solid black;
+}
+
+#tc{
+    text-decoration: none;
+}
+
+#side-images{
+    margin-top: 130px;
+    background-image: url(https://img.freepik.com/free-vector/sign-up-concept-illustration_114360-7895.jpg?w=826&t=st=1659451598~exp=1659452198~hmac=83af3b0c5bebb561dd163c1f0bf858c30c1070b3405ce0987e0a57ea9e9c178d);
+    background-size: cover;
+    background-position: left right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
