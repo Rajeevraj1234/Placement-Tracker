@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --basicColor: #fa4753;
+    --hoverColor: #5bccf6;
+}
+
+#logo{
+    height: 60px;
+    width: 250px;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 120px;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+    font-weight: bolder;
+}
+
+#nav-log-btn{
+    border-radius: 30px;
+    font-size: 1.1em;
+    background-color: var(--basicColor);
+    padding: 1% 5%;
+}
+
+/* #sticky{
+    border-bottom: 2px solid #000;
+} */
+
+.background1 {
+    background-color: #ceecf7;
+    height: 100vh;
+    padding-top: 155px;
+}
+
+#ui1 {
+    background-color: white;
+    padding: 40px;
+    margin-top: 120px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 -20px 20px grey; */
+    border-left: none;
+    /* box-shadow: 0 0 30px black; */
+    font-family: 'Kanit', sans-serif;
+
+}
+@media only screen and (max-width:900px) {
+    #ui1 {
+        margin-top: 0;
+    }
+}
+.icon {
+    padding: 8px 2px;
+}
+
+#ui label {
+    font-size: 18px;
+}
+
+.btn1 {
+    background-color: #fa4753;
+    color: white;
+    font-weight: bolder;
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px 10px;
+    border: 1px solid black;
+}
+
+.btn1:hover {
+    background-color: #7e6ded;
+    color: white;
+    border: 1px solid black;
+}
+
+.link-dec{
+    text-decoration: none;
+}
+
+#side-images1{
+    margin-top: 120px;
+    background-image: url("https://img.freepik.com/free-vector/access-control-system-abstract-concept_335657-3180.jpg?w=826&t=st=1659454844~exp=1659455444~hmac=85b2903a0a1ee91051f2e3aa935f20eba8b2f5a0e874590aaf304562d5ed1254");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* border: 5px solid black; */
+    /* box-shadow: 0 -20px 20px grey; */
+    /* border-right: none; */
+}
+.signupbtn{
+    border: transparent;
+    background-color: transparent;
+    color: blue;
+}
